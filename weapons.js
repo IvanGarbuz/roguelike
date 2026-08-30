@@ -1,2 +1,2 @@
 const swords = [];
-const axes = [];
+const axes = ["Battle Axe", "Double-headed Axe", "Throwing Axe"];
