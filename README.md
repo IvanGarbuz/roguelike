@@ -10,7 +10,17 @@
 
 ### Classes
 
-### Characteristics
+### Characteristics 🐧
+
+- HP
+- MP
+- Str
+- Dex
+- Int
+- Con
+- Speed
+- P. def
+- M. def
 
 #### Warrior
 
