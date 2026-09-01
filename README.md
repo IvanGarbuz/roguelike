@@ -1,7 +1,12 @@
 # Plan
 
 ## Character system
-
+### Character creation
+### Character
+- Name
+- Class
+- Inventory
+- Characteristics
 ### Inventory
 
 - Weapon
