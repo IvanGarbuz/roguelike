@@ -4,6 +4,10 @@
 
 ### Inventory
 
+- Weapon
+- Armor
+- Amulet
+
 ### Classes
 
 ### Characteristics
@@ -39,6 +43,10 @@
 #### M. def
 
 ### Weapon
+
+#### Scale
+
+#### Types
 
 ### Amulets
 
