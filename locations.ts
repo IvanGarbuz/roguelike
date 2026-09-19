@@ -1,15 +1,15 @@
-type LocationSite = {
+export type LocationSite = {
 name: string;
 }
 
-const dungeon: LocationSite = {
+export const dungeon: LocationSite = {
 name: "Dungeon"
 }
 
-const forest: LocationSite = {
+export const forest: LocationSite = {
     name: "Forest"
 }
 
-const cursedCastle: LocationSite = {
+export const cursedCastle: LocationSite = {
     name: "Cursed Castle"
 }
