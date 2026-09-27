@@ -1,4 +1,4 @@
-import { Armor } from "./armors";
+import { Armor } from "../items/armors";
 
 type FoeArmor = Armor;
 
