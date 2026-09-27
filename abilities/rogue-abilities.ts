@@ -1,4 +1,4 @@
-import { Ability } from "./warrior-abilities";
+import { Ability } from "../types"
 
 const barrageOfRapidBlows: Ability = {
     name: "Barrage of rapid blows",

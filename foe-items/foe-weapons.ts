@@ -1,4 +1,4 @@
-import { Weapon } from "./weapons";
+import { Weapon } from "../items/weapons";
 
 type FoeWeapon = Weapon
 

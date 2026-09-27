@@ -1,8 +1,4 @@
-export type Ability = {
-    name: string;
-    description: string;
-    damage: number;
-};
+import { Ability } from "../types";
 
 const axeThrow: Ability = {
     name: "Axe throw",

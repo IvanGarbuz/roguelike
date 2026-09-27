@@ -1,8 +1,8 @@
-import {Armor, peasantCloth} from "./armors";
-import {stick, Weapon} from "./weapons";
-import {Amulet} from "./amulets";
+import {Armor, peasantCloth} from "./items/armors"
+import {Weapon, stick} from "./items/weapons"
+import {Amulet} from "./items/amulets"
 
-type CharacterInventory = {
+export type CharacterInventory = {
     armor: Armor;
     weapon: Weapon;
     amulet?: Amulet;

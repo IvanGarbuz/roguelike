@@ -1,4 +1,4 @@
-import { Ability } from "./warrior-abilities";
+import { Ability } from "../types";
 
 const minorHealing: Ability = {
     name: "Minor healing",
