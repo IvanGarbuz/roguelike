@@ -1,4 +1,4 @@
-type Characteristics = {
+export type Characteristics = {
     HP: number;
     MP: number;
     str: number;
@@ -20,7 +20,7 @@ const defaultSpeed = defaultDex * 5;
 const defaultPdef = 5;
 const defaultMdef = 5;
 
-const defaultCharacteristics: Characteristics = {
+export const defaultCharacteristics: Characteristics = {
     HP: defaultHP,
     MP: defaultMP,
     str: defaultStr,
