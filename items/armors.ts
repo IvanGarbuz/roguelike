@@ -4,25 +4,25 @@ export type Armor = {
     mdef: number;
 };
 
-const fullPlate: Armor = {
+export const fullPlate: Armor = {
     name: "Full Plate",
     pdef: 20,
     mdef: 10,
 };
 
-const leatherArmor: Armor = {
+export const leatherArmor: Armor = {
     name: "Leather Armor",
     pdef: 10,
     mdef: 10,
 };
 
-const robe: Armor = {
+export const robe: Armor = {
     name: "Robe",
     pdef: 5,
     mdef: 15,
 };
 
-const healerRobe: Armor = {
+export const healerRobe: Armor = {
     name: "Healer Robe",
     pdef: 5,
     mdef: 20,

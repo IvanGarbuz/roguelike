@@ -3,22 +3,22 @@ export type Weapon = {
     damage: number;
 };
 
-const longSword: Weapon = {
+export const longSword: Weapon = {
     name: "Long Sword",
     damage: 15,
 };
 
-const dagger: Weapon = {
+export const dagger: Weapon = {
     name: "Dagger",
     damage: 10,
 };
 
-const staff: Weapon = {
+export const staff: Weapon = {
     name: "Staff",
     damage: 8,
 };
 
-const healingScroll: Weapon = {
+export const healingScroll: Weapon = {
     name: "Healing Scroll",
     damage: 1,
 };
