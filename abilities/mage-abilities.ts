@@ -17,3 +17,5 @@ const summon: Ability = {
     description: "The character summons a skeleton that attacks the enemy and then disappears",
     damage: 27
 }
+
+export const mageAbilities = [fireBall, lightingBolt, summon]
