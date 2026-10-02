@@ -17,4 +17,3 @@ const stealthChokehold: Ability = {
     description: "A character in stealth mode puts an opponent in a chokehold",
     damage: 22
 }
-
