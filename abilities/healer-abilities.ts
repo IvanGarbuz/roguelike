@@ -23,3 +23,5 @@ const salvation: Ability = {
     description: "Calls upon God for help and protection against all misfortunes",
     damage: -40,
 };
+
+export const healerAbilities = [minorHealing, moderateHealing, massHealing, salvation]

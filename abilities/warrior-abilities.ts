@@ -17,3 +17,5 @@ const earthTremor: Ability = {
     description: "The warrior slams the ground with all his might, dealing massive damage to everyone",
     damage: 35,
 };
+
+export const warriorAbilities = [axeThrow, heavySwing, earthTremor]
