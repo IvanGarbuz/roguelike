@@ -1,6 +1,6 @@
-import {Armor, fullPlate, healerRobe, leatherArmor, peasantCloth, robe} from "./items/armors"
-import {Weapon, dagger, healingScroll, longSword, staff, stick} from "./items/weapons"
-import {Amulet} from "./items/amulets"
+import { Amulet } from "./amulets";
+import { Armor, peasantCloth, fullPlate, leatherArmor, robe, healerRobe } from "./armors";
+import { Weapon, stick, longSword, dagger, staff, healingScroll } from "./weapons";
 
 export type CharacterInventory = {
     armor: Armor;
@@ -32,3 +32,5 @@ export const healerInventory: CharacterInventory = {
     armor: healerRobe,
     weapon: healingScroll,
 };
+
+

@@ -2,13 +2,13 @@ import { healerAbilities } from "./abilities/healer-abilities";
 import { mageAbilities } from "./abilities/mage-abilities";
 import { rogueAbilities } from "./abilities/rogue-abilities";
 import { warriorAbilities } from "./abilities/warrior-abilities";
-import { Characteristics, defaultCharacteristics, healerCharacteristics, mageCharacteristics, rogueCharacteristics, warriorCharacteristics } from "./characteristics";
-import { CharacterInventory, defaultInventory, healerInventory, mageInventory, rogueInventory, warriorInventory } from "./inventory";
+import { Characteristics, healerCharacteristics, mageCharacteristics, rogueCharacteristics, warriorCharacteristics } from "./characteristics";
+import { CharacterInventory, healerInventory, mageInventory, rogueInventory, warriorInventory } from "./inventory";
 import { Ability } from "./types";
 
 type CharacterClass = "Healer" | "Mage" | "Rogue" | "Warrior";
 
-type Character = {
+export type Character = {
   name: string;
   characterClass: CharacterClass;
   inventory: CharacterInventory;
