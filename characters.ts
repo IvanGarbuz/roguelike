@@ -3,7 +3,7 @@ import { mageAbilities } from "./abilities/mage-abilities";
 import { rogueAbilities } from "./abilities/rogue-abilities";
 import { warriorAbilities } from "./abilities/warrior-abilities";
 import { Characteristics, healerCharacteristics, mageCharacteristics, rogueCharacteristics, warriorCharacteristics } from "./characteristics";
-import { CharacterInventory, healerInventory, mageInventory, rogueInventory, warriorInventory } from "./inventory";
+import { CharacterInventory, warriorInventory, mageInventory, healerInventory, rogueInventory } from "./items/character-inventory";
 import { Ability } from "./types";
 
 type CharacterClass = "Healer" | "Mage" | "Rogue" | "Warrior";
