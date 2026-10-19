@@ -12,13 +12,13 @@ const createFoe = (name: string, location: LocationSite): FoeClass => {
   };
 };
 
-const skeleton: FoeClass = createFoe("Skeleton", dungeon)
+export const skeleton: FoeClass = createFoe("Skeleton", dungeon)
  
-const zombie: FoeClass = createFoe("Zombie", dungeon)
+export const zombie: FoeClass = createFoe("Zombie", dungeon)
 
-const slime: FoeClass = createFoe("Slime", dungeon)
+export const slime: FoeClass = createFoe("Slime", dungeon)
 
-const vampire: FoeClass = createFoe("Vampire", dungeon)
+export const vampire: FoeClass = createFoe("Vampire", dungeon)
  
 const wolf: FoeClass = createFoe("Wolf", forest)
 
