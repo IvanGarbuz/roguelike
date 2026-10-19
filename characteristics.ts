@@ -59,3 +59,5 @@ export const mageCharacteristics: Characteristics = {
   int: 100,
   speed: 35,
 };
+
+

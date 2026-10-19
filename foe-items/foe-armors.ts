@@ -1,74 +1,74 @@
 import { Armor } from "../items/armors";
 
-type FoeArmor = Armor;
+export type FoeArmor = Armor;
 
-const rustyArmor: FoeArmor = {
+export const rustyArmor: FoeArmor = {
   name: "Rusty Armor",
   pdef: 30,
   mdef: 14
 };
 
-const rags: FoeArmor = {
+export const rags: FoeArmor = {
     name: "Rags",
     pdef: 5,
     mdef: 0
 }
 
-const naked: FoeArmor = {
+export const naked: FoeArmor = {
     name: "Naked",
     pdef: 0,
     mdef: 0
 }
 
-const tailcoat: FoeArmor = {
+export const tailcoat: FoeArmor = {
     name: "Tailcoat",
     pdef: 18,
     mdef: 30
 }
 
-const hide: FoeArmor = {
+export const hide: FoeArmor = {
     name: "Hide",
     pdef: 5,
     mdef: 0
 }
 
-const furArmor: FoeArmor = {
+export const furArmor: FoeArmor = {
     name: "Fur Armor",
     pdef: 17,
     mdef: 5
 }
 
-const fullPlateArmor: FoeArmor = {
+export const fullPlateArmor: FoeArmor = {
     name: "Full Plate Armor",
     pdef: 47,
     mdef: 7
 }
 
-const robe: FoeArmor = {
+export const robe: FoeArmor = {
     name: "Robe",
     pdef: 5,
     mdef: 45    
 }
 
-const loincloth: FoeArmor = {
+export const loincloth: FoeArmor = {
     name: "Loincloth",
     pdef: 1,
     mdef: 0
 }
 
-const eboniteArmor: FoeArmor = {
+export const eboniteArmor: FoeArmor = {
     name: "Ebonite Armor",
     pdef: 60,
     mdef: 20
 }
 
-const boneArmor: FoeArmor = {
+export const boneArmor: FoeArmor = {
     name: "Bone Armor",
     pdef: 35,
     mdef: 10
 }
 
-const stoneArmor: FoeArmor = {
+export const stoneArmor: FoeArmor = {
     name: "Stone Armor",
     pdef: 42,
     mdef: 22
